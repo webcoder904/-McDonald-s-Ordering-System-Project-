@@ -1,7 +1,7 @@
 import cv2 as cv  
 
 def Mcdonals_ordering_system():
-        menu =  cv.imread("C:/Users/HP/Pictures/magento car/meanu.jpg")
+        menu =  cv.imread("meanu.jpg" # add your file_path)
         menu_ = cv.resize(menu,(800,700))
     
         cv.imshow("menu", menu_)
